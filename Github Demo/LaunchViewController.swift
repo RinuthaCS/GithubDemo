@@ -8,17 +8,22 @@
 import UIKit
 
 class LaunchViewController: UIViewController {
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
     
-    setupView()
-  }
-
-
-  private
-  func setupView() {
-    // Set up your view here
-  }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        setupView()
+        GuruSetupFunc()
+    }
+    
+    private
+    func setupView() {
+        // Set up your view here
+    }
+    
+    private
+    func GuruSetupFunc() {
+        // This My Logic
+    }
 }
 
