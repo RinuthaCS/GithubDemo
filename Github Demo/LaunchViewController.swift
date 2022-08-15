@@ -13,6 +13,7 @@ class LaunchViewController: UIViewController {
         super.viewDidLoad()
         
         setupView()
+        ReenusSetFunc()
         GuruSetupFunc()
     }
     
@@ -25,22 +26,10 @@ class LaunchViewController: UIViewController {
     func GuruSetupFunc() {
         // This My Logic
     }
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
     
-    setupView()
-    ReenusSetFunc()
-  }
-
-  private
-  func setupView() {
-    // Set up your view here
-  }
-  
-  private
-  func ReenusSetFunc() {
-    
-  }
+    private
+    func ReenusSetFunc() {
+        
+    }
 }
 
