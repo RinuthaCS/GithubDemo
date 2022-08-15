@@ -13,12 +13,17 @@ class LaunchViewController: UIViewController {
     super.viewDidLoad()
     
     setupView()
+    ReenusSetFunc()
   }
-
 
   private
   func setupView() {
     // Set up your view here
+  }
+  
+  private
+  func ReenusSetFunc() {
+    
   }
 }
 
