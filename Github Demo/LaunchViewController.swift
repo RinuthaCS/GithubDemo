@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LaunchViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    setupView()
   }
 
 
+  private
+  func setupView() {
+    // Set up your view here
+  }
 }
 
